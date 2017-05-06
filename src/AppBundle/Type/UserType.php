@@ -1,18 +1,10 @@
 <?php
+namespace AppBundle\Type;
 
-namespace App\Type;
-
-use App\DB;
-use App\Types;
+use AppBundle\DB;
+use AppBundle\Types;
 use GraphQL\Type\Definition\ObjectType;
 
-/**
- * Class UserType
- *
- * Тип User для GraphQL
- *
- * @package App\Type
- */
 class UserType extends ObjectType
 {
     public function __construct()
@@ -52,4 +44,5 @@ class UserType extends ObjectType
         ];
         parent::__construct($config);
     }
+
 }

@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Type;
+namespace AppBundle\Type;
 
-use App\DB;
-use App\Types;
+use AppBundle\DB;
+use AppBundle\Types;
 use GraphQL\Type\Definition\ObjectType;
 
 class QueryType extends ObjectType
